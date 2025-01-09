@@ -8,7 +8,7 @@ import Slide from "@mui/material/Slide";
 import DialogTitle from "@mui/material/DialogTitle";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import './Forgotpassword.css';
+import '../css/forgotpassword.css';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
